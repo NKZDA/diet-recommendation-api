@@ -1,0 +1,4 @@
+﻿Class,Precision,Recall,F1-Score,Support
+Balanced,1.0,1.0,1.0,128
+Low_Carb,1.0,1.0,1.0,77
+Low_Sodium,1.0,1.0,1.0,95

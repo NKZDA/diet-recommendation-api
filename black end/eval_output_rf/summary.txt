@@ -1,0 +1,28 @@
+
+========== WEKA-STYLE EVALUATION (Random Forest) ==========
+
+Total number of instances (after ignore): 300
+
+📊 Detailed Accuracy By Class
+     Class  Precision  Recall  F1-Score  Support
+  Balanced        1.0     1.0       1.0      128
+  Low_Carb        1.0     1.0       1.0       77
+Low_Sodium        1.0     1.0       1.0       95
+
+🧩 Confusion Matrix (rows=true, cols=predicted)
+                 pred_Balanced  pred_Low_Carb  pred_Low_Sodium
+true_Balanced              128              0                0
+true_Low_Carb                0             77                0
+true_Low_Sodium              0              0               95
+
+✅ Correctly classified instances:   300 / 300  (100.00%)
+❌ Incorrectly classified instances: 0 / 300  (0.00%)
+📦 Total number of instances:        300
+🔎 (ignore class unknown instances เปิดใช้งานแล้ว)
+
+🤝 Kappa statistic: 1.000000
+
+📐 Mean absolute error (MAE): 0.000000
+📐 Root mean squared error (RMSE): 0.000000
+📏 Relative absolute error (RAE): 0.00%
+📏 Root relative squared error (RRSE): 0.00%
